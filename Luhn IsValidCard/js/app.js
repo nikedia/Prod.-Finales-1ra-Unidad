@@ -3,7 +3,7 @@
 function isValidCard(digits) {
 
   do{
-    var digits = prompt('Por favor, Ingresar los Números de la Tarjeta a validad')
+    var digits = prompt('Por favor, Ingresar los Dígitos de la Tarjeta a validad')
     var reverse = 0; //Donde se va a guardar los números invertidos
     var resto = digits; //Número de la tarjeta
         do {
