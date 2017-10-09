@@ -1,9 +1,11 @@
 //1.Crear función isValidCard
 
-function isValidCard(sixteenDigitString) {
+function isValidCard(digits) {
 
+  do{
+    var digits = prompt('Por favor, Ingresar los Números de la Tarjeta a validad')
     var reverse = 0; //Donde se va a guardar los números invertidos
-    var resto = sixteenDigitString; //Número de la tarjeta
+    var resto = digits; //Número de la tarjeta
         do {
        reverse = reverse * 10 + (resto % 10);
        resto = Math.floor(resto / 10);
@@ -25,5 +27,6 @@ function isValidCard(sixteenDigitString) {
     }
         return  (numSum % 10 === 0 ? 'Tarjeta de Crédito Válida' : 'Tarjeta de Crédito no Válida');
 }
-
-console.log(isValidCard(408395201526310))
+while(typeof str === 'number' && str !== '');
+}
+isValidCard(401334401526310));
